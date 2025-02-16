@@ -1,0 +1,45 @@
+/* Elimina los márgenes y el padding predeterminados de todos los elementos */
+* {
+  margin: 0px; /* Margen: 0 píxeles */
+  padding: 0px; /* Padding: 0 píxeles */
+}
+
+/* Establece las propiedades para todos los elementos <div> */
+div {
+  width: 200px; /* Ancho del div: 200 píxeles */
+  height: 200px; /* Alto del div: 200 píxeles */
+  padding: 50px; /* Espaciado interno: 50 píxeles en todos los lados */
+  color: white; /* Color del texto: blanco */
+  border-radius: 24px; /* Bordes redondeados con un radio de 24 píxeles */
+  border: 5px solid rgb(0, 0, 0); /* Borde de 5 píxeles, sólido y negro */
+  background-image: url("ironman.jpg"); /* Imagen de fondo: ironman.jpg */
+  background-size: cover; /* La imagen cubre todo el fondo del div */
+}
+
+/* Clase para un contenedor relativo */
+.relative {
+  position: relative; /* Posicionamiento relativo */
+  width: 600px; /* Ancho del contenedor: 600 píxeles */
+  height: 600px; /* Alto del contenedor: 600 píxeles */
+}
+
+/* Establece las propiedades para los elementos con la clase .div2 */
+.div2 {
+  width: 200px; /* Ancho del div: 200 píxeles */
+  height: 200px; /* Alto del div: 200 píxeles */
+  padding: 50px; /* Espaciado interno: 50 píxeles en todos los lados */
+  border-radius: 24px; /* Bordes redondeados con un radio de 24 píxeles */
+  border: 5px solid rgb(255, 2, 2); /* Borde de 5 píxeles, sólido y rojo */
+  background-image: url("ironman.jpg"); /* Imagen de fondo: ironman.jpg */
+  background-size: cover; /* La imagen cubre todo el fondo del div */
+}
+
+/* Establece las propiedades del cuerpo del documento */
+body {
+  height: 100vh; /* Altura del cuerpo: 100% de la altura de la ventana */
+  display: flex; /* Utiliza Flexbox para el diseño */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  gap: 10px; /* Espacio entre los elementos */
+}

@@ -1,0 +1,14 @@
+/* Selecciona todos los elementos con la clase 'h1' y aplica el color verde */
+.h1 {
+  color: green; /* Color del texto: verde */
+}
+
+/* Selecciona todos los elementos <h1> y aplica el color rojo */
+h1 {
+  color: red; /* Color del texto: rojo */
+}
+
+/* Selecciona el elemento con el id 'h1' y aplica el color azul */
+#h1 {
+  color: blue; /* Color del texto: azul */
+}

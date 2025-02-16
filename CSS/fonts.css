@@ -1,0 +1,41 @@
+/* Establece la fuente del cuerpo del documento y transforma el texto a mayúsculas */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* Fuentes preferidas para el cuerpo */
+  text-transform: uppercase; /* Convierte todo el texto a mayúsculas */
+}
+
+/* Establece la fuente, el peso y el estilo para los elementos <h1> */
+h1 {
+  font-family: "Grechen Fuemen", serif; /* Fuente específica para el encabezado h1 */
+  font-weight: 400; /* Peso de la fuente: normal */
+  font-style: normal; /* Estilo de la fuente: normal (no itálico) */
+}
+
+/* Establece el tamaño de fuente para los elementos <h2> */
+h2 {
+  font-size: 48px; /* Tamaño de la fuente: 48 píxeles */
+}
+
+/* Establece el tamaño y el estilo de fuente para los elementos <h3> */
+h3 {
+  font-size: 48px; /* Tamaño de la fuente: 48 píxeles */
+  font-weight: 200; /* Peso de la fuente: ligero */
+  font-style: italic; /* Estilo de la fuente: itálico */
+}
+
+/* Centra el texto para los elementos <h6> */
+h6 {
+  text-align: center; /* Alineación del texto: centrado */
+}
+
+/* Establece la alineación y el estilo del texto para los párrafos */
+p {
+  text-align: justify; /* Alineación del texto: justificado */
+  text-transform: initial; /* Restablece la transformación de texto a su forma original */
+  text-decoration: underline; /* Subraya el texto */
+}
+
+/* Elimina la decoración del texto para los enlaces */
+a {
+  text-decoration: none; /* Sin subrayado u otra decoración para los enlaces */
+}

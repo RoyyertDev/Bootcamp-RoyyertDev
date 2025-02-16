@@ -1,0 +1,37 @@
+/* Elimina los márgenes y el padding predeterminados de todos los elementos */
+* {
+  margin: 0px; /* Margen: 0 píxeles */
+  padding: 0px; /* Padding: 0 píxeles */
+}
+
+/* Establece las propiedades para todos los elementos <div> */
+div {
+  width: 100%; /* Ancho del div: 100% del contenedor padre */
+  height: 400px; /* Alto del div: 400 píxeles */
+  padding: 50px; /* Espaciado interno: 50 píxeles en todos los lados */
+  color: white; /* Color del texto: blanco */
+  border-radius: 24px; /* Bordes redondeados con un radio de 24 píxeles */
+  border: 5px solid red; /* Borde de 5 píxeles, sólido y rojo */
+  background-image: url("ironman.jpg"); /* Imagen de fondo: ironman.jpg */
+  background-size: cover; /* La imagen cubre todo el fondo del div */
+  margin: auto; /* Centra el div horizontalmente */
+  box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho y alto */
+}
+
+/* Efecto al pasar el mouse sobre el div */
+div:hover {
+  border-color: aqua; /* Cambia el color del borde a aqua */
+  scale: 1.03; /* Escala el div ligeramente al pasar el mouse */
+  transition: all 0.5s ease-in-out; /* Transición suave para todos los cambios */
+  cursor: pointer; /* Cambia el cursor a puntero al pasar el mouse */
+}
+
+/* Establece las propiedades del cuerpo del documento */
+body {
+  display: grid; /* Utiliza un diseño de cuadrícula */
+  grid-template-columns: repeat(
+    3,
+    minmax(0, 1fr)
+  ); /* Crea 3 columnas de igual tamaño */
+  gap: 12px; /* Espacio entre los elementos de la cuadrícula */
+}

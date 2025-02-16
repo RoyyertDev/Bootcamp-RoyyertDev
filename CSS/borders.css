@@ -1,0 +1,11 @@
+/* Establece las propiedades para todos los elementos <div> */
+div {
+  width: 100px; /* Ancho del div: 100 píxeles */
+  height: 100px; /* Alto del div: 100 píxeles */
+  padding: 50px; /* Espaciado interno: 50 píxeles en todos los lados */
+  color: white; /* Color del texto: blanco */
+  border-radius: 24px; /* Bordes redondeados con un radio de 24 píxeles */
+  border: 5px solid rgb(0, 0, 0); /* Borde de 5 píxeles, sólido y negro */
+  background-image: url("ironman.jpg"); /* Imagen de fondo: ironman.jpg */
+  background-size: cover; /* La imagen cubre todo el fondo del div */
+}

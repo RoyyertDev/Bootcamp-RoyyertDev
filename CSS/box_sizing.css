@@ -1,0 +1,15 @@
+/* Elimina el margen predeterminado del cuerpo del documento */
+/* body {
+  margin: 0px; 
+} */
+
+/* Establece las propiedades para todos los elementos <div> */
+div {
+  width: 200px; /* Ancho del div: 200 píxeles */
+  height: 200px; /* Alto del div: 200 píxeles */
+  padding: 50px; /* Espaciado interno: 50 píxeles en todos los lados */
+  margin: 100px 50px; /* Margen: 100 píxeles arriba y abajo, 50 píxeles a los lados */
+  background-color: blue; /* Color de fondo: azul */
+  color: white; /* Color del texto: blanco */
+  box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho y alto */
+}
