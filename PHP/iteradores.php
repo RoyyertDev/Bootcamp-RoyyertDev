@@ -29,7 +29,7 @@
      * foreach
      */
     $array = [1, 2, 3, 4, 5];
-    foreach ($array as $posicionPepito => $pepito) {
-        echo "Posicion: " . $posicionPepito . " Valor: " . $pepito . "\n";
+    foreach ($array as $posicion => $valor) {
+        echo "Posicion: " . $posicion . " Valor: " . $valor . "\n";
     }
 ?>
