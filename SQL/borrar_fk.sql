@@ -1,0 +1,1 @@
+ALTER TABLE inscripciones DROP FOREIGN KEY inscripciones_ibfk_1;

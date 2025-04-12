@@ -1,0 +1,5 @@
+CREATE TABLE clases (
+  id INT AUTO_INCREMENT PRIMARY KEY, 
+  prof VARCHAR(20) NOT NULL, 
+  horas INT(3) NOT NULL
+);

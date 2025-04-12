@@ -1,0 +1,1 @@
+UPDATE estudiantes SET nombres = 'Juan Jorge' WHERE id = 1 AND direccion = 'mariangel@gmail.com';
